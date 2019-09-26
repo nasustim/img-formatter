@@ -1,6 +1,8 @@
-./int/*
-./src/*
-./setting/*
+*.jpg
+*.png
+*.gif
+
+setting/*
 
 node_module/
 *.log
