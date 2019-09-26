@@ -1,0 +1,22 @@
+{
+  "name": "img-formatter",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp imgcover && ./node_modules/.bin/gulp imagemin"
+  },
+  "repository": "https://github.com/nasustim/img-formatter",
+  "author": "Mitsuhiro Hibino",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.1",
+    "gulp-dest": "^0.2.3",
+    "gulp-imagemin": "^6.1.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "jimp": "^0.8.4"
+  }
+}
